@@ -3,8 +3,9 @@ Static/Theme Resource documentation
 
 ## Glossary
 
-* New WinUI: Refers to the versions of WinUI2 after 2.6 that follow the Windows 11 design principles.
-* Old WinUI: Refers to the versions of WinUI2 before 2.6 that follow the Windows 10 design principles.
+* __New WinUI:__ Refers to the versions of WinUI2 after 2.6 that follow the Windows 11 design principles.
+* __Old WinUI:__ Refers to the versions of WinUI2 before 2.6 that follow the Windows 10 design principles.
+* __Theme aware alternative:__ A variant of a brush that is less accurate, but uses pre-defined colors to respond to user Light/Dark mode preferences. The mode listed as "favoring" is the mode that will look the most accurate. Some brushes already use these pre-defined colors, and will not have a theme aware alternative provided.
 
 ## AcrylicBrush
 
