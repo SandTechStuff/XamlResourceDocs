@@ -2,6 +2,19 @@
 
 Static/Theme Resource WinUI2 documentation, found by looking through its source code, PRI files, or generic xaml stylesheets.
 
+## Table of Contents
+
+- [Glossary](#glossary)
+- [Colors](#colors)
+  - [New WinUI common background colors](#new-winui-common-background-colors-gridviewitem-navigationview-etc)
+  - [New WinUI button colors](#new-winui-button-colors)
+- [AcrylicBrush](#acrylicbrush)
+  - [Windows Calculator background Acrylic](#windows-calculator-background-acrylic)
+  - [Windows 10 Settings sidebar Acrylic](#windows-10-settings-sidebar-acrylic)
+  - [Windows 10 Start/Taskbar/Tray flyout Acrylic](#windows-10-starttaskbartray-flyout-acrylic)
+  - [Default new WinUI backdrop Acrylic](#default-new-winui-backdrop-acrylic)
+  - [Windows 11 Start/Taskbar/Tray flyout Acrylic](#windows-11-starttaskbartray-flyout-acrylic)
+
 ## Glossary
 
 * __New WinUI:__ Refers to the versions of WinUI2 after 2.6 that follow the Windows 11 design principles.
