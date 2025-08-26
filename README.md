@@ -1,5 +1,6 @@
 # XamlResourceDocs
-Static/Theme Resource documentation
+
+Static/Theme Resource WinUI2 documentation, found by looking through its source code, PRI files, or generic xaml stylesheets.
 
 ## Glossary
 
