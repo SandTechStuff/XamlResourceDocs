@@ -11,29 +11,86 @@ Static/Theme Resource documentation
 
 ### New WinUI common background colors (GridViewItem, NavigationView, etc.)
 
-- #### PointerOver Light Mode
+- #### Light Mode
 
-  ```xaml
-  <Color x:Key="SubtleFillColorSecondary">#09000000</Color>
-  ```
+  - #### PointerOver
+  
+    ```xaml
+    <Color x:Key="SubtleFillColorSecondary">#09000000</Color>
+    ```
+  
+  - #### Pressed
+  
+    ```xaml
+    <Color x:Key="SubtleFillColorTertiary">#06000000</Color>
+    ```
+    
+- #### Dark Mode
 
-- #### Pressed Light Mode
+  - #### PointerOver
+  
+    ```xaml
+    <Color x:Key="SubtleFillColorSecondary">#0FFFFFFF</Color>
+    ```
+  
+  - #### Pressed
+  
+    ```xaml
+    <Color x:Key="SubtleFillColorTertiary">#0AFFFFFF</Color>
+    ```
 
-  ```xaml
-  <Color x:Key="SubtleFillColorTertiary">#06000000</Color>
-  ```
+### New WinUI button colors
 
-- #### PointerOver Dark Mode
+- #### Light Mode
 
-  ```xaml
-  <Color x:Key="SubtleFillColorSecondary">#0FFFFFFF</Color>
-  ```
+  - #### Normal
+  
+    ```xaml
+    <Color x:Key="ControlFillColorDefault">#B3FFFFFF</Color>
+    ```
+  
+  - #### PointerOver
+  
+    ```xaml
+    <Color x:Key="ControlFillColorSecondary">#80F9F9F9</Color>
+    ```
+  
+  - #### Pressed
+  
+    ```xaml
+    <Color x:Key="ControlFillColorTertiary">#4DF9F9F9</Color>
+    ```
+    
+  - #### Disabled
+  
+    ```xaml
+    <Color x:Key="ControlFillColorDisabled">#4DF9F9F9</Color>
+    ```
+- #### Dark Mode
 
-- #### Pressed Dark Mode
-
-  ```xaml
-  <Color x:Key="SubtleFillColorTertiary">#0AFFFFFF</Color>
-  ```
+  - #### Normal
+  
+    ```xaml
+    <Color x:Key="ControlFillColorDefault">#0FFFFFFF</Color>
+    ```
+  
+  - #### PointerOver
+  
+    ```xaml
+    <Color x:Key="ControlFillColorSecondary">#15FFFFFF</Color>
+    ```
+  
+  - #### Pressed
+  
+    ```xaml
+    <Color x:Key="ControlFillColorTertiary">#08FFFFFF</Color>
+    ```
+    
+  - #### Disabled
+  
+    ```xaml
+    <Color x:Key="ControlFillColorDisabled">#0BFFFFFF</Color>
+    ```
 
 ## AcrylicBrush
 
