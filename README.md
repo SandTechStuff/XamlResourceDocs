@@ -7,6 +7,34 @@ Static/Theme Resource documentation
 * __Old WinUI:__ Refers to the versions of WinUI2 before 2.6 that follow the Windows 10 design principles.
 * __Theme aware alternative:__ A variant of a brush that is less accurate, but uses pre-defined colors to respond to user Light/Dark mode preferences. The mode listed as "favoring" is the mode that will look the most accurate. Some brushes already use these pre-defined colors, and will not have a theme aware alternative provided.
 
+## Colors
+
+### Windows 11 common background colors
+
+- #### PointerOver Light Mode
+
+  ```xaml
+  <Color x:Key="SubtleFillColorSecondary">#09000000</Color>
+  ```
+
+- #### Pressed Light Mode
+
+  ```xaml
+  <Color x:Key="SubtleFillColorTertiary">#06000000</Color>
+  ```
+
+- #### PointerOver Dark Mode
+
+  ```xaml
+  <Color x:Key="SubtleFillColorSecondary">#0FFFFFFF</Color>
+  ```
+
+- #### Pressed Dark Mode
+
+  ```xaml
+  <Color x:Key="SubtleFillColorTertiary">#0AFFFFFF</Color>
+  ```
+
 ## AcrylicBrush
 
 ### Windows Calculator background Acrylic
