@@ -9,7 +9,7 @@ Static/Theme Resource documentation
 
 ## Colors
 
-### Windows 11 common background colors
+### New WinUI common background colors (GridViewItem, NavigationView, etc.)
 
 - #### PointerOver Light Mode
 
